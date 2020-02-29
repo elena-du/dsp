@@ -69,6 +69,7 @@ This "changes directory" and makes the named directory our new working
 directory. 
 
 > Question: How could we make sure that we moved?
+> Answer: We can use `ls` to see if files and folders belong to the correct directory.
 
 Let's get a few special things out of the way as well for command line. When
 we talk about folders, we don't always want to move "into" the next folder
@@ -119,6 +120,7 @@ Now nothing shows up on the screen. List the files and see if you can tell
 why.
 
 > Hint: we learned how to list all the files up above.
+> The output goes into the file instead of just outputing the text in the Terminal.
 
 The greater than says, "put that output into the following file instead."
 
@@ -144,7 +146,8 @@ This prints the data directly to stdout and we can see the whole dataset.
 Nice. 
 
 > Let's save the output of the `curl` command to a file called `data.txt`. How
-would we do that?
+would we do that? 
+> `curl https://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data > data.txt`
 
 Now that we have the data file, let's learn how to manipulate files.
 
@@ -192,6 +195,7 @@ ls -lh
 ```
 
 > What changed?
+> Size of files is displayed in a different format (it uses common abbreviations instead of bytes).
 
 If instead copying we just want to change the name of a file, we can do:
 
