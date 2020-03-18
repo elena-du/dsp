@@ -12,7 +12,7 @@ Where **s** is a pooled, or composite, standard deviation (the assumptions here 
 
 I like this visual guide to interpreting **d** from Wikipedia:
 
-![image info](img/Cohen_d.png)
+![image info](img/Cohen_d.png){:height="36px" width="36px"}
 
 I used the flow and assumptions from the book, e.g. taking only successful births into account:
 ```python
@@ -41,21 +41,7 @@ def CohenEffectSize(group1, group2):
 CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
 ```
 The output is **-0.088672927072602**.
-The function from the book:
 
-```python
-def CohenEffectSize(group1, group2): 
-    diff = group1.mean() - group2.mean()
-    var1 = group1.var()
-    var2 = group2.var()
-    n1, n2 = len(group1), len(group2)
-    pooled_var = (n1 * var1 + n2 * var2) / (n1 + n2) 
-    d = diff / math.sqrt(pooled_var)
-    return d 
-```
-```python
-CohenEffectSize(firsts.totalwgt_lb, others.totalwgt_lb)
-```
 The function rewritten based on Wikipedia formula:
 
 ```python
