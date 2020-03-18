@@ -12,7 +12,7 @@ Where **s** is a pooled, or composite, standard deviation (the assumptions here 
 
 I like this visual guide to interpreting **d** from Wikipedia:
 
-![image info](img/Cohen_d.png)<img src="img/Cohen_d.png"  width="120" height="120">
+<img src="img/Cohen_d.png"  width="250" height="250">
 
 I used the flow and assumptions from the book, e.g. taking only successful births into account:
 ```python
