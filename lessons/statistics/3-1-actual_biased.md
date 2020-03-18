@@ -17,4 +17,15 @@ thinkplot.Show(xlabel='class size', ylabel='PMF')
 
 The output:
 
+<img src ='img/bias_unbias.png' width="250" height="250">
+
+Means:
+
+```python
+pmf_actual.Mean()
+print("Actual mean: ", pmf_actual.Mean())
+pmf_biased.Mean()
+print("Biased mean: ", pmf_biased.Mean())
+```
+Actual mean:  **1.024205155043831** <br /> Biased mean:  **2.403679100664282**
 
