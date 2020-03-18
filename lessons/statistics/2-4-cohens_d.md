@@ -4,4 +4,4 @@ The problem is to calculate **Cohen's d** statistic to evaluate the effect size 
 
 The formula is the following:
 
-![image info](./Users/elena/Desktop/1.png)
+![image info](images/1.png)
