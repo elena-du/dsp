@@ -12,6 +12,30 @@ Where **s** is a pooled, or composite, standard deviation (the assumptions here 
 
 I like this visual guide to interpreting **d** from Wikipedia:
 
+![image info](Cohen_d/2.png)
 
+I used the flow and assumptions from the book, e.g. taking only successful births into account:
+```python
+preg = nsfg.ReadFemPreg()
+live = preg[preg.outcome == 1]
+```
+Here are the groups:
+
+```python
+firsts = live[live.birthord == 1] 
+others = live[live.birthord != 1]
+```
+The function from the book, rewritten:
+
+```python
+def CohenEffectSize(group1, group2): 
+    diff = group1.mean() - group2.mean()
+    var1 = group1.var()
+    var2 = group2.var()
+    n1, n2 = len(group1), len(group2)
+    pooled_var = (n1 * var1 + n2 * var2) / (n1 + n2) 
+    d = diff / math.sqrt(pooled_var)
+    return d 
+```
 
 
