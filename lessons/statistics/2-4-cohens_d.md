@@ -5,3 +5,13 @@ The problem is to calculate **Cohen's d** statistic to evaluate the effect size 
 The formula is the following:
 
 ![image info](img/1.png)
+
+Where **s** is a pooled, or composite, standard deviation (the assumptions here is that mean of the population is different, but variance is the same):
+
+![image info](img/2.png)
+
+I like this visual guide to interpreting **d** from Wikipedia:
+
+
+
+
