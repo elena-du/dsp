@@ -17,6 +17,6 @@ thinkplot.Show(xlabel='class size', ylabel='PMF')
 
 The output:
 
-<img src = 'img/bias_unbias.png' width="250" height="250">
+<img src ='img/bias_unbias.png' width="250" height="250">
 
 
