@@ -27,6 +27,6 @@ print("Actual mean: ", pmf_actual.Mean())
 pmf_biased.Mean()
 print("Biased mean: ", pmf_biased.Mean())
 ```
-Actual mean:  **1.024205155043831**
+Actual mean:  **1.024205155043831** /n
 Biased mean:  **2.403679100664282**
 
