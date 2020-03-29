@@ -95,6 +95,8 @@ How do frequentist and Bayesian statistics compare?
 
 Frequentist and Bayesian approaches to statistical inference are often pictured as opposing, but some [describe this dichotomy as misleading](http://www.stat.columbia.edu/~gelman/research/published/philosophy_online4.pdf). Frequentism, also called a 'classic' theory of statistical inference, is based on deductive reasoning and is rooted at viewing probabilities in absolute sense, as frequencies of events happening based on repeated measurements. Hypotheses can only stay null or be rejected in favor of an alternative, backed up by p-values. Bayesian approach, on the other hand is generally inductive reasoning that uses probabilities to measure the degree of certainty about the hypothesis, which, as in case of frequentists, depends on observed frequencies of events, but, unlike frequentists approach, also depends on prior knowledge about these events. That implies that for frequentists there exists only single true value that should be estimated using models, but it will always remain unknown. Bayesian approach does not disagree that the value is unknown but does not view it a single value either. Instead, it views it as a distribution over values, updatable as new data comes in. 
 
+I also like this interpretation that for frequentists, model is fixed and data vary around them, and for Bayesians observed data is fixed, and models can vary around them. 
+
 ---
 
 ## <a name="section-e"></a>5.  Optional Exercises
